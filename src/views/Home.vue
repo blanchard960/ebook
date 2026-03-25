@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <main v-if="!viewingChapter">
-      <h2>Chapters</h2>
+      <h2>Welcome to my Ebook</h2>
       <ChapterVignettes :chapters="chapters" @select-chapter="selectChapter" />
     </main>
 
