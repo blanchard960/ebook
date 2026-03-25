@@ -2,10 +2,10 @@
     <header>
         <div class="header-content">
             <h1>{{ title }}</h1>
-            <p>Welcome to my ebook! Explore the chapters and enjoy the insights.</p>
+            <p>{{ message}}</p>
         </div>
     <nav class="page-switch">
-      <router-link to="/" class="tab" active-class="active" exact>Chapters</router-link>
+      <router-link to="/" class="tab" active-class="active" exact>Home</router-link>
       <router-link to="/aboutMe" class="tab" active-class="active">About Me</router-link>
       <router-link to="/projects" class="tab" active-class="active">My Projects</router-link>
     </nav>
@@ -19,9 +19,11 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const title = computed(() => { return (route.meta.title as string) || 'My Ebook' })
+const message = computed(() => { return (route.meta.message as string) || '' })
 
 interface Props {
     title?: string
+    message?: string
 }
 
 const props = defineProps<Props>()
@@ -44,7 +46,7 @@ header {
 
 .page-switch {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem 0;
@@ -53,9 +55,10 @@ header {
 .tab {
   background: #f5f3f9;
   color: #1D034D;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.2rem;
   border-radius: 4px;
   text-decoration: none;
+  font-size: small;
 }
 
 .tab.active,
