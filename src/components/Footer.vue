@@ -10,5 +10,6 @@ footer {
   text-align: center;
   padding: 1rem;
   border-top: 1px solid #ddd;
+  
 }
 </style>
