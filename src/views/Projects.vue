@@ -3,16 +3,18 @@
     <h2>My Projects</h2>
     <p>Welcome! I am the author of this ebook. This section is dedicated to my personal profile, experience, and writing mission.</p>
     <p>Feel free to replace this content with your biography, skills, contact info, and goals.</p>
-  <div class="chapter-vignettes">
+
+    <div class="chapter-vignettes">
     <div
       v-for="project in projects"
       :key="project.id"
       class="vignette"
       :style="{ background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://picsum.photos/300/200?random=${project.id}) no-repeat center center / cover` }"
-      @click="$emit('selectChapter', project)"
     >
+    <router-link :to="project.redirectPage" class="tab" active-class="active" exact>
       <h3>{{ project.title }}</h3>
-      <p>{{ getInsight(project.content) }}</p>
+      <p>{{ getInsight(project.content) }}</p></router-link>
+      
     </div>
   </div>
   </main>
@@ -26,18 +28,16 @@ interface Chapter{
   id: number
   title: string
   content: string
-  href?: string
+  redirectPage: string
 }
 
 const projects = ref<Chapter[]>([
-  { id: 1, title: 'TracksIUT', content: '<p>Welcome to my ebook. This is the introduction chapter.</p><p>You can easily modify this content by editing the chapters array in App.vue.</p>' },
-  { id: 2, title: 'EDUKID', content: '<p>This is chapter 1 content. Add your content here.</p>' },
-  { id: 3, title: 'MHWLore', content: '<p>Monster Hunter World Lore</p>' },
-])
+  { id: 1, title: 'TracksIUT', content: '<p>Welcome to my ebook. This is the introduction chapter.</p><p>You can easily modify this content by editing the chapters array in App.vue.</p>', redirectPage: '/tracksiut' },
+  { id: 2, title: 'EDUKID', content: '<p>This is chapter 1 content. Add your content here.</p>', redirectPage: '/edukid' },
+  { id: 3, title: 'MHWLore', content: '<p>Monster Hunter World Lore</p>', redirectPage: '/mhwlore' },
+]);
 
-defineEmits<{
-  selectChapter: [chapter: Chapter]
-}>()
+
 
 const getInsight = (content: string): string => {
   // Remove HTML tags and get first 100 characters

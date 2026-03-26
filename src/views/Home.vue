@@ -15,7 +15,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import ChapterVignettes from '../components/ChapterVignettes.vue'
 
 interface ChapterItem {
   id: number
