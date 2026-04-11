@@ -39,7 +39,7 @@ const headerStyle = computed(() => {
     } else {
       console.log("[Header] headerStyle if(backgroundImage) Else")
         return {
-            backgroundColor: '#FF0000',
+            backgroundColor: '#1D034D',
         }
     }
 })

@@ -6,7 +6,3 @@ export default defineConfig({
   plugins: [vue()],
   base : '/ebook/'
 })
-
-module.exports = {
-    publicPath: '/ebook/'
-}
