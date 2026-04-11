@@ -1,8 +1,9 @@
 <template>
     <main>
+        <p>2025-2026</p>
         <div class="flex-row">
             <div class="right">
-                <img src="../../assets/edukid.png" alt="logoEDUKID">
+                <img src="../../assets/EDUKID/edukid.png" alt="logoEDUKID">
             </div>
             <p>Ce projet s’est déroulé lors de ma dernière année de BUT Informatique. L’objectif était de reprendre un
                 projet existant et de le remettre en état de marche et l’améliorer. Ce projet à été fait au sein d’un
@@ -19,6 +20,12 @@
                 <li>Pour les chiffres, apprendre la notion de quantité puis l’associée au symbole et au nom</li>
             </ul>
             <p>Sous couvert de jeux tels que le Memory, des mots à trou et du dessin, les enfants intègrent par la répétition les notions qui leurs servirons plus tard dans l’apprentissage de la lecture et des nombres.</p>
+        </div>
+        <div class="slideshow">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_Dessine.PNG" alt="EDUKID Dessine">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_Ecoute.PNG" alt="EDUKID Ecoute">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_Felicitation.PNG" alt="EDUKID Félicitations">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_Memory.PNG" alt="EDUKID Memory">
         </div>
     </main>
 </template>
@@ -51,6 +58,39 @@ img {
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.slideshow {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.75rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slideshow::-webkit-scrollbar {
+    height: 10px;
+}
+
+.slideshow::-webkit-scrollbar-thumb {
+    background: rgba(29, 3, 77, 0.35);
+    border-radius: 999px;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: min(280px, 80vw);
+    border-radius: 1rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    scroll-snap-align: start;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
 }
 
 .right {
