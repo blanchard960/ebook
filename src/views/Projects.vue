@@ -1,8 +1,7 @@
 <template>
   <main>
     <h2>My Projects</h2>
-    <p>Welcome! I am the author of this ebook. This section is dedicated to my personal profile, experience, and writing mission.</p>
-    <p>Feel free to replace this content with your biography, skills, contact info, and goals.</p>
+    <p>You will find here my latests projects.</p>
 
     <div class="chapter-vignettes">
     <div
@@ -22,7 +21,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import edukid from '../assets/edukid.png';
+import edukid from '../assets/EDUKID/edukid.png';
+import mhwlore from '../assets/MHWLore/MHWLore_Bookmark.png';
+import TracksIUT from '../assets/TracksIUT/TrackIUT_Logo.png';
 
 
 interface Chapter{
@@ -33,9 +34,11 @@ interface Chapter{
 }
 
 const projects = ref<Chapter[]>([
-  { id: 1, title: 'TracksIUT',  redirectPage: '/tracksiut' , backgroundImage: edukid},
+  { id: 1, title: 'TracksIUT',  redirectPage: '/tracksiut' , backgroundImage: TracksIUT},
   { id: 2, title: 'EDUKID', redirectPage: '/edukid' , backgroundImage: edukid},
-  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore' , backgroundImage: edukid},
+  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore' , backgroundImage: mhwlore},
+  { id: 3, title: 'Godot', redirectPage: '/godot' , backgroundImage: TracksIUT},
+  { id: 3, title: 'Iot_Reveil', redirectPage: '/Iot_Reveil' , backgroundImage: TracksIUT},
 ]);
 
 </script>
