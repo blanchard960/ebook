@@ -9,7 +9,7 @@ import TracksIUT from '../views/projects/TracksIUT.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home, meta: { title: 'Home' } },
   { path: '/aboutMe', name: 'About', component: About, meta: { title: 'About Me' } },
-  { path: '/projects', name: 'Projects', component: Projects, meta: { title: 'My Projects' } },
+  { path: '/projects', name: 'Projects', component: Projects, meta: { title: 'My Projects', backgroundImage: '/assets/edukid.png' } },
   { path: '/edukid', name: 'EDUKID', component: EDUKID, meta: { title: 'EDUKID' } },
   { path: '/mhwlore', name: 'MHWLore', component: MHWLore, meta: { title: 'Monster Hunter World Lore' } },
   { path: '/tracksIUT', name: 'TracksIUT', component: TracksIUT, meta: { title: 'Tracks IUT' } },

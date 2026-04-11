@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header :style="headerStyle">
         <div class="header-content">
             <h1>{{ title }}</h1>
             <p>{{ message}}</p>
@@ -9,7 +9,6 @@
       <router-link to="/aboutMe" class="tab" active-class="active">About Me</router-link>
       <router-link to="/projects" class="tab" active-class="active">My Projects</router-link>
     </nav>
-
     </header>
 </template>
 
@@ -18,8 +17,9 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const title = computed(() => { return (route.meta.title as string) || 'My Ebook' })
+const title = computed(() => {return (route.meta.title as string) || 'My Ebook' })
 const message = computed(() => { return (route.meta.message as string) || '' })
+const backgroundImage = computed(() => { return (route.meta.backgroundImage as string) || ''})
 
 interface Props {
     title?: string
@@ -27,11 +27,26 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+
+const headerStyle = computed(() => {
+    const bg = backgroundImage.value
+    console.log("[Header] headerStyle backgroundImage : "+bg)
+    if (bg) {
+        return {
+            background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${bg}) no-repeat center center / cover`,
+            backgroundColor: '#1D034D',
+        } 
+    } else {
+      console.log("[Header] headerStyle if(backgroundImage) Else")
+        return {
+            backgroundColor: '#FF0000',
+        }
+    }
+})
 </script>
 
 <style scoped>
 header {
-    background: #1D034D;
     color: #f5f3f9;
     padding: 1rem;
     text-align: center;

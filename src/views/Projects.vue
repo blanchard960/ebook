@@ -9,11 +9,11 @@
       v-for="project in projects"
       :key="project.id"
       class="vignette"
-      :style="{ background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://picsum.photos/300/200?random=${project.id}) no-repeat center center / cover` }"
+      :style="{ background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${project.backgroundImage}) no-repeat center center / cover` }"
     >
     <router-link :to="project.redirectPage" class="tab" active-class="active" exact>
       <h3>{{ project.title }}</h3>
-      <p>{{ getInsight(project.content) }}</p></router-link>
+    </router-link>
       
     </div>
   </div>
@@ -22,28 +22,21 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import edukid from '../assets/edukid.png';
 
 
 interface Chapter{
   id: number
   title: string
-  content: string
   redirectPage: string
+  backgroundImage?: string
 }
 
 const projects = ref<Chapter[]>([
-  { id: 1, title: 'TracksIUT', content: '<p>Welcome to my ebook. This is the introduction chapter.</p><p>You can easily modify this content by editing the chapters array in App.vue.</p>', redirectPage: '/tracksiut' },
-  { id: 2, title: 'EDUKID', content: '<p>This is chapter 1 content. Add your content here.</p>', redirectPage: '/edukid' },
-  { id: 3, title: 'MHWLore', content: '<p>Monster Hunter World Lore</p>', redirectPage: '/mhwlore' },
+  { id: 1, title: 'TracksIUT',  redirectPage: '/tracksiut' , backgroundImage: edukid},
+  { id: 2, title: 'EDUKID', redirectPage: '/edukid' , backgroundImage: edukid},
+  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore' , backgroundImage: edukid},
 ]);
-
-
-
-const getInsight = (content: string): string => {
-  // Remove HTML tags and get first 100 characters
-  const text = content.replace(/<[^>]*>/g, '')
-  return text.length > 100 ? text.substring(0, 100) + '...' : text
-}
 
 </script>
 
@@ -54,11 +47,13 @@ main {
   padding: 2rem;
   overflow-y: auto;
   background-color: #f5f3f9;
+  color : #1D034D
 }
 
 h2 {
   border-bottom: 2px solid #1D034D;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5rem; 
+  color: #1D034D;
 }
 
 .chapter-vignettes {

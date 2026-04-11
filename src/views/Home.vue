@@ -47,6 +47,7 @@ main {
   padding: 2rem;
   overflow-y: auto;
   background-color: #f5f3f9;
+  color : #1D034D
 }
 
 main h2 {
