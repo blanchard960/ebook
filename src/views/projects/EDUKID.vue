@@ -81,16 +81,19 @@ img {
 .slide {
     flex: 0 0 auto;
     width: min(280px, 80vw);
+    height: 100px;
     border-radius: 1rem;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     scroll-snap-align: start;
+    overflow: hidden;
 }
 
 .slideshow img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     border-radius: inherit;
+    object-fit: cover;
 }
 
 .right {
