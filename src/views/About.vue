@@ -6,35 +6,43 @@
         <p>Welcome! I am the author of this ebook. This section is dedicated to my personal profile, experience, and
           writing
           mission.</p>
-        <p>Feel free to replace this content with your biography, skills, contact info, and goals.</p>
       </div>
     </div>
-    <ul>
-      <li>Experienced writer and developer</li>
-      <li>Passionate about teaching through content</li>
-      <li>Creator of this Vue ebook template</li>
-    </ul>
     <div>
-      <h2>Diplomas</h2>
+      <h2>Diplomas & Formations</h2>
       <ul>
         <li>
-          <h4>2023-2026 BUT Informatique </h4>
-          <p>3 year undergraduate studies in computer science.
+          <p><strong>2023-2026 : BUT Informatique </strong>3 year undergraduate studies in computer science.
             Université Claude Bernard Lyon 1 - Bourg-en-Bresse</p>
         </li>
         <li>
-          <h4>2025 DAF : Diplôme d'Assistant Fédéral (FFKDA Fédération Française de Karaté)</h4>
+          <p><strong>2026 : TOEIC </strong>945/990 </p>
+        </li>
+        <li>
+          <p><strong>2025 : DAF</strong> Diplôme d'Assistant Fédéral (FFKDA Fédération Française de Karaté)</p>
+        </li>
+        <li>
+          <p><strong>2024 : PSC1</strong> Premier Secours Citoyen</p>
         </li>
       </ul>
     </div>
     <div>
+      <h2>Professional experiences</h2>
+      <p><strong>2025-2026 GREENMOT work-study</strong> into computer science </p>
+      <p><strong>2025 Univers Software internship</strong> into computer science </p>
+      <p>And somme other summer jobs</p>
+    </div>
+    <div>
       <h2>Hobbies and sport</h2>
-      <p>livres, moto, sport ( liens vers des articles ?)</p>
+      <p>Practicing kung-fu and Sanda (Chinese box) for about 10 years now, I add the opportunity to participate to various competitions, as a competitor and as a coach. I especially participate to the 20th Kempo World Championship in 2025 in Caldas da Reina Portugal. I won in two categories (Submission, and knockdown) and finished 2nd for the other two. I’m training over 10 hours per week for these competitions but also because it’s my way off decompress after work or studies. I also help giving the class for the youngers. </p>
+      <p>Among kung-fu I also ride motorcycle on road and on track from time to time.</p>
+      <p>I also enjoy some reading.</p>
+    
     </div>
     <div>
       <h2>Contact Me</h2>
-      <p>Email: your.email@example.com</p>
-      <p>LinkedIn: linkedin.com/in/yourprofile</p>
+      <p>Email: elyne.derocles@laposte.net</p>
+      <a href="https://www.linkedin.com/in/elyne-blanchard-313319333" target="_blank"><strong>LinkedIn</strong></a>
     </div>
   </main>
 </template>
@@ -46,6 +54,7 @@ main {
   overflow-y: auto;
   background-color: #f5f3f9;
   color: #1D034D;
+  text-align: left;
 }
 
 h2 {
@@ -66,5 +75,9 @@ img {
 .intro{
   display: flex;
   flex-direction: row;
+}
+
+a{
+  color: #1D034D;
 }
 </style>

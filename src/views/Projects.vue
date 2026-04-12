@@ -1,21 +1,21 @@
 <template>
   <main>
+    <h2>Welcome to my Ebook</h2>
+    <p>Hi, I'm Elyne BLANCHARD I'm a modile developper (well, still in training right now). On this web site, you will
+      learn more about me and can have a closer look to some of my projects</p>
+    <p>Or learn a bit more about me here</p>
     <h2>My Projects</h2>
     <p>You will find here my latests projects.</p>
 
     <div class="chapter-vignettes">
-    <div
-      v-for="project in projects"
-      :key="project.id"
-      class="vignette"
-      :style="{ background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${project.backgroundImage}) no-repeat center center / cover` }"
-    >
-    <router-link :to="project.redirectPage" class="tab" active-class="active" exact>
-      <h3>{{ project.title }}</h3>
-    </router-link>
-      
+      <div v-for="project in projects" :key="project.id" class="vignette"
+        :style="{ background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${project.backgroundImage}) no-repeat center center / cover` }">
+        <router-link :to="project.redirectPage" class="tab" active-class="active" exact>
+          <h3>{{ project.title }}</h3>
+        </router-link>
+
+      </div>
     </div>
-  </div>
   </main>
 </template>
 
@@ -26,7 +26,7 @@ import mhwlore from '../assets/MHWLore/MHWLore_Bookmark.png';
 import TracksIUT from '../assets/TracksIUT/TrackIUT_Logo.png';
 
 
-interface Chapter{
+interface Chapter {
   id: number
   title: string
   redirectPage: string
@@ -34,28 +34,27 @@ interface Chapter{
 }
 
 const projects = ref<Chapter[]>([
-  { id: 1, title: 'TracksIUT',  redirectPage: '/tracksiut' , backgroundImage: TracksIUT},
-  { id: 2, title: 'EDUKID', redirectPage: '/edukid' , backgroundImage: edukid},
-  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore' , backgroundImage: mhwlore},
-  { id: 3, title: 'Godot', redirectPage: '/godot' , backgroundImage: TracksIUT},
-  { id: 3, title: 'Iot_Reveil', redirectPage: '/Iot_Reveil' , backgroundImage: TracksIUT},
+  { id: 1, title: 'TracksIUT', redirectPage: '/tracksiut', backgroundImage: TracksIUT },
+  { id: 2, title: 'EDUKID', redirectPage: '/edukid', backgroundImage: edukid },
+  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore', backgroundImage: mhwlore },
+  { id: 3, title: 'Godot', redirectPage: '/godot', backgroundImage: TracksIUT },
+  { id: 3, title: 'Iot_Reveil', redirectPage: '/Iot_Reveil', backgroundImage: TracksIUT },
 ]);
 
 </script>
 
 <style scoped>
-
 main {
   flex: 1;
   padding: 2rem;
   overflow-y: auto;
   background-color: #f5f3f9;
-  color : #1D034D
+  color: #1D034D
 }
 
 h2 {
   border-bottom: 2px solid #1D034D;
-  padding-bottom: 0.5rem; 
+  padding-bottom: 0.5rem;
   color: #1D034D;
 }
 
@@ -89,5 +88,9 @@ h2 {
   color: white;
   font-size: 0.9rem;
   line-height: 1.4;
+}
+
+main {
+  text-align: left;
 }
 </style>

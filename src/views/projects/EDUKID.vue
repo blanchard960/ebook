@@ -9,7 +9,7 @@
                 projet existant et de le remettre en état de marche et l’améliorer. Ce projet à été fait au sein d’un
                 groupe de 4 développeurs. </p>
         </div>
-        <p class="technos"><strong>Technos & outils : </strong>Java - Kotlin - gitLab - Trello</p>
+        <p class="technos"><strong>Technos & outils : </strong>Java - Kotlin - gitHub - Trello</p>
         <p class="technos"><strong>Keywords : </strong>Team work - Mobile App</p>
         <div>
             <h2>Présentation du projet </h2>
@@ -26,6 +26,10 @@
             <img class="slide" src="../../assets/EDUKID/EDUKID_Ecoute.PNG" alt="EDUKID Ecoute">
             <img class="slide" src="../../assets/EDUKID/EDUKID_Felicitation.PNG" alt="EDUKID Félicitations">
             <img class="slide" src="../../assets/EDUKID/EDUKID_Memory.PNG" alt="EDUKID Memory">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_MainMenu.PNG" alt="EDUKID Main menu">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_ProfileEdit.PNG" alt="EDUKID Profile edit">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_ProfilList.PNG" alt="EDUKID Profil List">
+            <img class="slide" src="../../assets/EDUKID/EDUKID_Stats.PNG" alt="EDUKID Statistics">
         </div>
     </main>
 </template>
@@ -67,6 +71,7 @@ img {
     padding-bottom: 0.75rem;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    height: 25rem;
 }
 
 .slideshow::-webkit-scrollbar {
@@ -89,10 +94,10 @@ img {
 }
 
 .slideshow img {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: block;
-    border-radius: inherit;
+    border-radius: 1rem;
     object-fit: cover;
 }
 
