@@ -28,16 +28,16 @@
     </div>
     <div>
       <h2>Professional experiences</h2>
-      <p><strong>2025-2026 GREENMOT work-study</strong> into computer science </p>
-      <p><strong>2025 Univers Software internship</strong> into computer science </p>
-      <p>And somme other summer jobs</p>
+      <p><strong>2025-2026 GREENMOT work-study</strong></p> 
+      <p>Pour cette alternance, mes actions s'inscrivaient dans la politique d'amélioration continue de l'entreprise. J'interviens dans la réalisation d'un serveur permettant de récupérer des données de les enregistrer en base de données et de les mettre à disposition d'une IHM via une API.</p>
+      <p><strong>2025 Univers Software internship</strong></p>
+      <p>Lors de ce stage, j'ai du réaliser une Proof of Concept sur la réalisation d'un module moodle et l'utilisation de mmodle pour mettre en place un système de formation semi en ligne </p>
     </div>
     <div>
       <h2>Hobbies and sport</h2>
       <p>Practicing kung-fu and Sanda (Chinese box) for about 10 years now, I add the opportunity to participate to various competitions, as a competitor and as a coach. I especially participate to the 20th Kempo World Championship in 2025 in Caldas da Reina Portugal. I won in two categories (Submission, and knockdown) and finished 2nd for the other two. I’m training over 10 hours per week for these competitions but also because it’s my way off decompress after work or studies. I also help giving the class for the youngers. </p>
       <p>Among kung-fu I also ride motorcycle on road and on track from time to time.</p>
-      <p>I also enjoy some reading.</p>
-    
+      <p>I also enjoy some reading and more rarely hang out with some friends.</p>  
     </div>
     <div>
       <h2>Contact Me</h2>

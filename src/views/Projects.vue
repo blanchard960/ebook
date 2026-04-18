@@ -35,9 +35,7 @@ interface Chapter {
 const projects = ref<Chapter[]>([
   { id: 1, title: 'TracksIUT', redirectPage: '/tracksiut', backgroundImage: TracksIUT },
   { id: 2, title: 'EDUKID', redirectPage: '/edukid', backgroundImage: edukid },
-  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore', backgroundImage: mhwlore },
-  { id: 3, title: 'Godot', redirectPage: '/godot', backgroundImage: TracksIUT },
-  { id: 3, title: 'Iot_Reveil', redirectPage: '/Iot_Reveil', backgroundImage: TracksIUT },
+  { id: 3, title: 'MHWLore', redirectPage: '/mhwlore', backgroundImage: mhwlore }
 ]);
 
 </script>
