@@ -1,9 +1,8 @@
 <template>
   <main>
     <h2>Welcome to my Ebook</h2>
-    <p>Hi, I'm Elyne BLANCHARD I'm a modile developper (well, still in training right now). On this web site, you will
-      learn more about me and can have a closer look to some of my projects</p>
-    <p>Or learn a bit more about me here</p>
+    <p>Hi, I'm Elyne BLANCHARD I'm a modile developper, still in training. On this web site, you will
+      learn more about me and can have a closer look to some of my projects or learn a bit more about me here</p>
     <h2>My Projects</h2>
     <p>You will find here my latests projects.</p>
 
