@@ -3,17 +3,18 @@
     <div class="intro">
       <img src="../assets/photoLinkedin.jpg" alt="photoLinkedin" class="rounded">
       <div>
-        <p>Welcome! I am the author of this ebook. This section is dedicated to my personal profile, experience, and
-          writing
-          mission.</p>
+        <p>Bonjour, je suis l'auteur de cet ebook. Cette section est dédiée à mon profil personnel, mon expérience, et
+          mes compétences. Je suis actuellement étudiante en BUT informatique à l'Université Claude Bernard Lyon 1.
+          N'hésitez pas à me contacter pour toute
+          question ou collaboration potentielle. Je serais ravi de discuter de mes expériences et de mes projets avec
+          vous.</p>
       </div>
     </div>
     <div>
-      <h2>Diplomas & Formations</h2>
+      <h2>Diplomes & Formations</h2>
       <ul>
         <li>
-          <p><strong>2023-2026 : BUT Informatique </strong>3 year undergraduate studies in computer science.
-            Université Claude Bernard Lyon 1 - Bourg-en-Bresse</p>
+          <p><strong>2023-2026 : BUT Informatique </strong>Université Claude Bernard Lyon 1 - Bourg-en-Bresse</p>
         </li>
         <li>
           <p><strong>2026 : TOEIC </strong>945/990 </p>
@@ -27,20 +28,26 @@
       </ul>
     </div>
     <div>
-      <h2>Professional experiences</h2>
-      <p><strong>2025-2026 GREENMOT work-study</strong></p> 
-      <p>Pour cette alternance, mes actions s'inscrivaient dans la politique d'amélioration continue de l'entreprise. J'interviens dans la réalisation d'un serveur permettant de récupérer des données de les enregistrer en base de données et de les mettre à disposition d'une IHM via une API.</p>
+      <h2>Expériences professionnelles</h2>
+      <p><strong>2025-2026 GREENMOT work-study</strong></p>
+      <p>Pour cette alternance, mes actions s'inscrivaient dans la politique d'amélioration continue de l'entreprise.
+        J'interviens dans la réalisation d'un serveur permettant de récupérer des données de les enregistrer en base de
+        données et de les mettre à disposition d'une IHM via une API.</p>
       <p><strong>2025 Univers Software internship</strong></p>
-      <p>Lors de ce stage, j'ai du réaliser une Proof of Concept sur la réalisation d'un module moodle et l'utilisation de mmodle pour mettre en place un système de formation semi en ligne </p>
+      <p>Lors de ce stage, j'ai du réaliser une Proof of Concept sur la réalisation d'un module moodle et l'utilisation
+        de Moodle pour mettre en place un système de formation semi en ligne </p>
     </div>
     <div>
-      <h2>Hobbies and sport</h2>
-      <p>Practicing kung-fu and Sanda (Chinese box) for about 10 years now, I add the opportunity to participate to various competitions, as a competitor and as a coach. I especially participate to the 20th Kempo World Championship in 2025 in Caldas da Reina Portugal. I won in two categories (Submission, and knockdown) and finished 2nd for the other two. I’m training over 10 hours per week for these competitions but also because it’s my way off decompress after work or studies. I also help giving the class for the youngers. </p>
-      <p>Among kung-fu I also ride motorcycle on road and on track from time to time.</p>
-      <p>I also enjoy some reading and more rarely hang out with some friends.</p>  
+      <h2>Sport et hobbies</h2>
+      <p>Pratiquant le kung-fu et le Sanda (box chinois) depuis environ 10 ans, j'ai eu l'opportunité de participer à
+        diverses compétitions, en tant que concurrent mais aussi en tant que coach. J'ai notemment eu l'honneur de participer au 20ème Championnat du Monde de Kempo
+        en 2025 à Caldas da Reina, au Portugal. J'y ai remporté deux titres (Soumission et Knockdown) et terminé 2ème pour les deux autres. Je m'entraîne plus de 10 heures par semaine pour ces compétitions mais aussi parce que c'est
+        mon moyen de décompresser après le travail ou les études. Je participe également à l'enseignement aux plus jeunes. Transmettre est aussi une motivation et un honneur.</p>
+      <p>En plus du kung-fu, il m'arrive de participer à des session sur piste en moto mais aussi sur route.</p>
+      <p>J'aime aussi lire et profiter occasionnellement de mes amis.</p>
     </div>
     <div>
-      <h2>Contact Me</h2>
+      <h2>Pour me contacter</h2>
       <p>Email: elyne.derocles@laposte.net</p>
       <a href="https://www.linkedin.com/in/elyne-blanchard-313319333" target="_blank"><strong>LinkedIn</strong></a>
     </div>
@@ -72,12 +79,12 @@ img {
   border-radius: 50%;
 }
 
-.intro{
+.intro {
   display: flex;
   flex-direction: row;
 }
 
-a{
+a {
   color: #1D034D;
 }
 </style>

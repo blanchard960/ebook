@@ -1,7 +1,9 @@
 <template>
     <main>
         <div class="flex-row">
-            <p class="right">MHWLore (Monster Hunter World Lore) est une application mobile destinée aux fans du jeu Monster Hunter
+            <img id="logoImage" src="../../assets/MHWLore/Logo.png" alt="MHWLore Logo">
+            <p class="right">MHWLore (Monster Hunter World Lore) est une application mobile destinée aux fans du jeu
+                Monster Hunter
                 World ou à ceux qui veulent se renseigner plue en profondeure sur l'histoire du jeu et de ses monstres.
             </p>
         </div>
@@ -23,6 +25,9 @@
             <img class="slide" src="../../assets/MHWLore/MHWLore_Search.png" alt="MHWLore Search">
             <img class="slide" src="../../assets/MHWLore/MJWLore_Wireframing.PNG" alt="MHWLore Wireframing">
             <img class="slide" src="../../assets/MHWLore/MHWLore_WireframingLinks.PNG" alt="MHWLore WireframingLinks">
+            <img class="slide" src="../../assets/MHWLore/MHWLore_FigmaHauteFidelite.PNG"
+                alt="MHWLore Figma haute fidelite">
+
         </div>
     </main>
 </template>
@@ -95,7 +100,7 @@ img {
 }
 
 .right {
-    width: 30%;
+    width: 70%;
     min-width: 200px;
     margin-right: 2cap;
 }
@@ -103,5 +108,13 @@ img {
 .technos {
     padding-bottom: 1rem;
     padding-top: 1rem;
+}
+
+#logoImage {
+    width: 150px;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    background-color: #1D034D;
 }
 </style>
