@@ -1,10 +1,10 @@
 <template>
   <main>
-    <h2>Welcome to my Ebook</h2>
+    <h2>Bienvenue sur mon Ebook</h2>
     <p>Bonjour, je suis Elyne BLANCHARD, une développeuse mobile en formation. Sur ce site web, vous pourrez
       en apprendre plus sur moi et avoir un aperçu de certains de mes projets.</p>
     <h2>Mes Projets</h2>
-    <p>Vous trouverez ici mes derniers projets les plus marquants.</p>
+    <p>Voici mes projets les plus marquants les plus récents.</p>
 
     <div class="chapter-vignettes">
       <div v-for="project in projects" :key="project.id" class="vignette"

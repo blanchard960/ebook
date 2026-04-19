@@ -2,9 +2,7 @@
     <main>
         <div class="flex-row">
             <img id="logoImage" src="../../assets/MHWLore/Logo.png" alt="MHWLore Logo">
-            <p class="right">MHWLore (Monster Hunter World Lore) est une application mobile destinée aux fans du jeu
-                Monster Hunter
-                World ou à ceux qui veulent se renseigner plue en profondeure sur l'histoire du jeu et de ses monstres.
+            <p class="right">MHWLore (Monster Hunter World Lore) est une application mobile destinée aux fans du jeu Monster Hunter World ou à ceux qui veulent se renseigner plus en profondeur sur l'histoire du jeu et de ses monstres.
             </p>
         </div>
         <div class="technos">
@@ -14,9 +12,7 @@
         </div>
         <div>
             <h2>Présentation du projet</h2>
-            <p>Ce projet à été réalisé dans le cadre de ma dernière année de BUT Informatique sur l'année scolaire
-                2025-2026.Ce projet a été réalisé en binome, il a été l'occasion de mettre en oeuvre l'architecture MVVM
-                (Model View ViewModel) et de prendre en main kotlin.</p>
+            <p>Ce projet a été réalisé dans le cadre de ma dernière année de BUT Informatique sur l'année scolaire 2025-2026. Ce projet a été réalisé en binôme, il a été l'occasion de mettre en oeuvre l'architecture MVVM (Model View ViewModel) et de prendre en main Kotlin.</p>
         </div>
         <div class="slideshow">
             <img class="slide" src="../../assets/MHWLore/MHWLore_Home.png" alt="MHWLore Home">

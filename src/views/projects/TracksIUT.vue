@@ -4,10 +4,7 @@
             <div class="right">
                 <img src="../../assets/TracksIUT/TrackIUT_Logo.png" alt="logoTracksIUT">
             </div>
-            <p>Ce projet s’est déroulé lors de ma deuxième année de BUT Informatique sur l'année scolaire 2024-2025.
-                Ce projet a été réalisé en collaboration avec un groupe de 4 développeurs. Le but de ce projet était de
-                réaliser un site web ainsi qu'une application mobile afin de préparer et de participer à un jeu de piste
-                avec des énigmes.</p>
+            <p>Ce projet s’est déroulé lors de ma deuxième année de BUT Informatique sur l'année scolaire 2024-2025. Ce projet a été réalisé en collaboration avec un groupe de 4 développeurs. Le but de ce projet était de réaliser un site web ainsi qu'une application mobile afin de préparer et de participer à un jeu de piste avec des énigmes.</p>
         </div>
         <div class="technos">
             <p><strong>Technos & outils : </strong>Flutter - Dart - Firebase - gitLab - Trello - Canvas</p>
@@ -15,21 +12,15 @@
         </div>
         <div>
             <h2>Présentation du projet </h2>
-            <p>Le projet TracksIUT est un site web qui permet à un organisateur de créer et de gérer la mise en place
-                d'un jeu de piste via un site web. Ce heu de piste est composé de points de passages représentés
-                physiquements par des QR codes installés sur le lieu du jeu. Les participants peuvent ainsi suivre les
-                différentes étapes du jeu et résoudre les énigmes en scanant les différents QR codes avec l'application
-                mobile. Pour ce projet, une base de données a du être mise en place. Nous avons choisi Firebase pour sa
-                facilité d'utilisation et les fonctionnalités telles que l'authentification poussée. Nous avons choisis
-                Flutter pour son aspect cross-plateforme.</p>
+            <p>Le projet TracksIUT est un site web qui permet à un organisateur de créer et de gérer la mise en place d'un jeu de piste via un site web. Ce jeu de piste est composé de points de passages représentés physiquement par des QR codes installés sur le lieu du jeu. Les participants peuvent ainsi suivre les différentes étapes du jeu et résoudre les énigmes en scannant les différents QR codes avec l'application mobile. Pour ce projet, une base de données a dû être mise en place. Nous avons choisi Firebase pour sa facilité d'utilisation et les fonctionnalités telles que l'authentification poussée. Nous avons choisi Flutter pour son aspect cross-plateforme.</p>
         </div>
         <div>
             <h2>Organisation du projet</h2>
             <p>Le projet a été organisé en plusieurs étapes : </p>
             <ul>
-                <li>Analyse des besoins et rédaction d'un cahier des charges</li>
-                <li>Conception de l'architecture du projet et de la base de données</li>
-                <li>Développement du site web et de l'application mobile</li>
+                <li>Analyse des besoins et rédaction d'un cahier des charges.</li>
+                <li>Conception de l'architecture du projet et de la base de données.</li>
+                <li>Développement du site web et de l'application mobile.</li>
             </ul>
         </div>
         <div class="slideshow">
@@ -41,9 +32,7 @@
 
         <div>
             <h2>Web site</h2>
-            <p>Le site web a été conçu pour permettre aux organisateurs de créer et de gérer facilement les jeux de
-                piste. Il offre une interface pour la gestion des énigmes, des points de passage et des participants.
-                Réalisé en flutter</p>
+            <p>Le site web a été conçu pour permettre aux organisateurs de créer et de gérer facilement les jeux de piste. Il offre une interface pour la gestion des énigmes, des points de passage et des participants. Réalisé en Flutter</p>
             <div class="slideshow">
                 <img class="slide" src="../../assets/TracksIUT/WebsiteLogin.png" alt="TracksIUT Web Site Login Page">
                 <img class="slide" src="../../assets/TracksIUT/WebSiteHomeView.png" alt="TracksIUT Web Site Main Page">
@@ -53,9 +42,7 @@
         </div>
         <div>
             <h2>Mobile App</h2>
-            <p>Une application mobile a été développée pour permettre aux participants de scanner les QR codes et de
-                résoudre les énigmes. Le défis lors de la réalisation de cette application à été d'intégrer le système
-                de lecture de QRCodes.</p>
+            <p>Une application mobile a été développée pour permettre aux participants de scanner les QR codes et de résoudre les énigmes. Le défi lors de la réalisation de cette application a été d'intégrer le système de lecture de QR Codes.</p>
             <div class="slideshow">
                 <img class="slide" src="../../assets/TracksIUT/MobileAppAccueil.png" alt="TracksIUT Mobile App Accueil">
                 <img class="slide" src="../../assets/TracksIUT/MobileAppDebutPartie.png"
@@ -71,18 +58,18 @@
             <h2>Mon rôle dans le projet</h2>
             <p>Dans ce projet j’ai eu plusieurs rôles : </p>
             <ul>
-                <li>Participer à la rédaction du cahier des charges et à l'analyse des besoins</li>
-                <li>Concevoir l'architecture du projet et la base de données</li>
-                <li>Développer la logique et le backend de l'application et du site web</li>
-                <li>Développer le système de scan des QR codes pour l'application mobile</li>
+                <li>Participer à la rédaction du cahier des charges et à l'analyse des besoins.</li>
+                <li>Concevoir l'architecture du projet et la base de données.</li>
+                <li>Développer la logique et le backend de l'application et du site web.</li>
+                <li>Développer le système de scan des QR codes pour l'application mobile.</li>
                 <li>Réaliser une présentation du projet pour les autres étudiants et les enseignants.</li>
             </ul>
         </div>
         <div>
             <h2>Retex</h2>
             <h3>Un an plus tard, qu'est-ce que j'ai appris de ce projet ? </h3><h3>Et quoi ferais-je différemment si j'avais l'occasion de travailler dessus à nouveau ?</h3>
-            <p>Pour commencer, ce projet à été ma première longue expérience sur un projet de groupe. Ceci m'a apporter de l'expérience notemment dans l"utilisation des outils de gestion de projet mais aussi dans la communication et l'organidsation des différentes taches au sein du groupe.</p>
-            <p>Ce que je ferais différement, avec l'expérience que j'ai acquise en cette troisième année de formation concerne l'architecture du projet même. En effet, le code du site web et celui de l'application mobile étainet réunis dans un seul projet ce qui rétrospectivement n'est pas une bonne pratique. Séparer ces deux projet aurait pu nous permettre de faire une architecture propre telle que MVVM pour le mobile et MVC pour le site web. De plus, cela aurait pu nous permettre de mieux gérer les dépendances et d'avoir une meilleure organisation du code.</p>
+            <p>Pour commencer, ce projet a été ma première longue expérience sur un projet de groupe. Ceci m'a apporté de l'expérience notamment dans l'utilisation des outils de gestion de projet mais aussi dans la communication et l'organisation des différentes tâches au sein du groupe.</p>
+            <p>Ce que je ferais différemment, avec l'expérience que j'ai acquise en cette troisième année de formation concerne l'architecture du projet même. En effet, le code du site web et celui de l'application mobile étaient réunis dans un seul projet ce qui rétrospectivement n'est pas une bonne pratique. Séparer ces deux projets aurait pu nous permettre de faire une architecture propre telle que MVVM pour le mobile et MVC pour le site web. De plus, cela aurait pu nous permettre de mieux gérer les dépendances et d'avoir une meilleure organisation du code.</p>
         </div>
     </main>
 </template>

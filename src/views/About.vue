@@ -11,7 +11,7 @@
       </div>
     </div>
     <div>
-      <h2>Diplomes & Formations</h2>
+      <h2>Diplômes & Formations</h2>
       <ul>
         <li>
           <p><strong>2023-2026 : BUT Informatique </strong>Université Claude Bernard Lyon 1 - Bourg-en-Bresse</p>
@@ -29,18 +29,18 @@
     </div>
     <div>
       <h2>Expériences professionnelles</h2>
-      <p><strong>2025-2026 GREENMOT work-study</strong></p>
+      <p><strong>2025-2026 GREENMOT Alternance développeur logiciel</strong></p>
       <p>Pour cette alternance, mes actions s'inscrivaient dans la politique d'amélioration continue de l'entreprise.
-        J'interviens dans la réalisation d'un serveur permettant de récupérer des données de les enregistrer en base de
+        J'interviens dans la réalisation d'un serveur permettant de récupérer des données, de les enregistrer en base de
         données et de les mettre à disposition d'une IHM via une API.</p>
-      <p><strong>2025 Univers Software internship</strong></p>
-      <p>Lors de ce stage, j'ai du réaliser une Proof of Concept sur la réalisation d'un module moodle et l'utilisation
-        de Moodle pour mettre en place un système de formation semi en ligne </p>
+      <p><strong>2025 Univers Software stage analyste développeur</strong></p>
+      <p>Lors de ce stage, j'ai dû réaliser une Proof of Concept sur la réalisation d'un module Moodle et l'utilisation
+        de Moodle pour mettre en place un système de formation semi en ligne.</p>
     </div>
     <div>
       <h2>Sport et hobbies</h2>
-      <p>Pratiquant le kung-fu et le Sanda (box chinois) depuis environ 10 ans, j'ai eu l'opportunité de participer à
-        diverses compétitions, en tant que concurrent mais aussi en tant que coach. J'ai notemment eu l'honneur de participer au 20ème Championnat du Monde de Kempo
+      <p>Pratiquant le kung-fu et le Sanda (boxe chinoise) depuis environ 10 ans, j'ai eu l'opportunité de participer à
+        diverses compétitions, en tant que concurrente mais aussi en tant que coach. J'ai notemment eu l'honneur de participer au 20ème Championnat du Monde de Kempo
         en 2025 à Caldas da Reina, au Portugal. J'y ai remporté deux titres (Soumission et Knockdown) et terminé 2ème pour les deux autres. Je m'entraîne plus de 10 heures par semaine pour ces compétitions mais aussi parce que c'est
         mon moyen de décompresser après le travail ou les études. Je participe également à l'enseignement aux plus jeunes. Transmettre est aussi une motivation et un honneur.</p>
       <p>En plus du kung-fu, il m'arrive de participer à des session sur piste en moto mais aussi sur route.</p>
