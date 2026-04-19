@@ -5,9 +5,8 @@
             <p>{{ message}}</p>
         </div>
     <nav class="page-switch">
-      <router-link to="/" class="tab" active-class="active" exact>Home</router-link>
-      <router-link to="/aboutMe" class="tab" active-class="active">About Me</router-link>
-      <router-link to="/projects" class="tab" active-class="active">My Projects</router-link>
+      <router-link to="/aboutMe" class="tab" active-class="active">A propos de moi</router-link>
+      <router-link to="/" class="tab" active-class="active">Accueil</router-link>
     </nav>
     </header>
 </template>
